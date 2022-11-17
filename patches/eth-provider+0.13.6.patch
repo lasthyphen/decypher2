@@ -1,0 +1,13 @@
+diff --git a/node_modules/eth-provider/presets/index.js b/node_modules/eth-provider/presets/index.js
+index c4a786f..63effcc 100644
+--- a/node_modules/eth-provider/presets/index.js
++++ b/node_modules/eth-provider/presets/index.js
+@@ -12,6 +12,7 @@ module.exports = (options = {}) => {
+     infuraOptimism: [`https://optimism-mainnet.infura.io/v3/${options.infuraId}`],
+     infuraSepolia: [`wss://sepolia.infura.io/ws/v3/${options.infuraId}`, `https://sepolia.infura.io/v3/${options.infuraId}`],
+     gnosis: ['https://rpc.gnosischain.com'],
+-    optimism: ['https://mainnet.optimism.io']
++    optimism: ['https://mainnet.optimism.io'],
++    dijets: ['https://dijets.uksouth.cloudapp.azure.com:443/ext/bc/C/rpc']
+   }
+ }
