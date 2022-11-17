@@ -289,7 +289,7 @@ const initial = {
             primary: { on: true, current: 'infura', status: 'loading', connected: false, type: '', network: '', custom: '' },
             secondary: { on: false, current: 'custom', status: 'loading', connected: false, type: '', network: '', custom: '' }
           },
-          on: false
+          on: true
         },
         5: {
           id: 5,
